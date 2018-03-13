@@ -1,0 +1,27 @@
+# -*- encoding: utf-8 -*-
+
+N = int(input())
+print(N)
+
+NOTAS100 = int(N/100)
+N = N-(NOTAS100*100)
+NOTAS50 = int(N/50)
+N = N-(NOTAS50*50)
+NOTAS20 = int(N/20)
+N = N-(NOTAS20*20)
+NOTAS10 = int(N/10)
+N = N-(NOTAS10*10)
+NOTAS5 = int(N/5)
+N = N-(NOTAS5*5)
+NOTAS2 = int(N/2)
+N = N-(NOTAS2*2)
+NOTAS1 = int(N/1)
+N = N-(NOTAS1*1)
+
+print("%d nota(s) de R$ 100,00" % NOTAS100)
+print("%d nota(s) de R$ 50,00" % NOTAS50)
+print("%d nota(s) de R$ 20,00" % NOTAS20)
+print("%d nota(s) de R$ 10,00" % NOTAS10)
+print("%d nota(s) de R$ 5,00" % NOTAS5)
+print("%d nota(s) de R$ 2,00" % NOTAS2)
+print("%d nota(s) de R$ 1,00" % NOTAS1)
